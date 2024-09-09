@@ -16,3 +16,82 @@ html {
   min-width: 0;
   max-width: 100%;
 }
+
+/* SplashScreen.css */
+.splash-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #e6e6fa,
+    #003366
+  ); /* Lavender to Navy Blue gradient */
+  color: #fff; /* Light text color for contrast */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 0 2rem; /* Added padding to prevent content from touching the edges */
+}
+
+.splash-screen h1 {
+  font-size: 2.5rem; /* Increased font size for better visibility */
+  margin-bottom: 1.5rem; /* Increased margin for spacing */
+}
+
+.splash-screen p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.splash-screen input {
+  padding: 0.75rem; /* Increased padding for better user experience */
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px; /* Set a max-width to prevent it from being too wide */
+  background-color: #fff; /* White background for the input field */
+  color: #003366; /* Navy Blue text color for input field */
+}
+
+.splash-screen button {
+  padding: 0.75rem 1.5rem; /* Increased padding for a better button appearance */
+  font-size: 1rem;
+  color: #fff;
+  background-color: #003366; /* Navy Blue background color for the button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px; /* Set a max-width to match the input */
+}
+
+.splash-screen button:hover {
+  background-color: #002244; /* Darker Navy Blue for hover effect */
+}
+
+/* ThankYouScreen.css */
+.thank-you-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #a57fc6,
+    #e6e6fa
+  ); /* Purple to Lavender gradient */
+  color: #555151; /* Light text color for contrast */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 0 2rem; /* Added padding to prevent content from touching the edges */
+}
+
+.thank-you-screen h1 {
+  font-size: 2.5rem; /* Increased font size for better visibility */
+  margin-bottom: 1.5rem; /* Increased margin for spacing */
+}

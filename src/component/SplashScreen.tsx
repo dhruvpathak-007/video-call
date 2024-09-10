@@ -19,7 +19,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onJoinCall }) => {
 
   return (
     <div className="splash-screen">
-      <h1>Welcome to Talkie Walkie</h1>
+      <h1>Welcome to Talkie Wakie</h1>
       <p>Loading your video call experience...</p>
       <input
         type="text"
